@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="github" 
+          fetch="https://github.com/" />
+
+  <!-- Mater -->
+  <project path="device/rusteze/mater" name="aosp-rusteze/product_mater" remote="github" revision="master"/>
+  <!-- Mater for Cuttlefish specific projects-->  
+  <include name="local_manifests/manifest_rusteze_mater_cf.xml"/>
+
+</manifest>
